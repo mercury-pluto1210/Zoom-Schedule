@@ -1,0 +1,21 @@
+{
+  "name": "zoom",
+  "version": "1.0.0",
+  "description": "Zoom Schedule",
+  "author": "mercury-pluto1210",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "moment": "^2.25.3",
+    "nuxt": "^2.0.0",
+    "vuex-persistedstate": "^3.0.1"
+  },
+  "devDependencies": {}
+}

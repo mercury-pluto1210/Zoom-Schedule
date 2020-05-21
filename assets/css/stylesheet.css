@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'SourceHanSansJP-Medium';
+  src: url('../font/SourceHanSansJP-Medium.otf') format("woff");
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.1s
+}
+.page-enter, .page-leave-active {
+  opacity: 0
+}
+
+ul{
+  list-style: none;
+}
+
+.Zoom-Schedule{
+  padding-top: 50px;
+  width: 80%;
+  font-family: 'SourceHanSansJP-Medium';
+  text-align: center;
+}
+
+.Schedule{
+  padding-top: 10px;
+}
+
+th,td{
+  border: 2px solid #fff;
+  background-color: #414141;
+}
+
+table{
+  width: 100%;
+  table-layout: fixed;
+}
+
+table th{
+  padding: 20px 10px;
+}
+
+table td{
+  padding: 2px 10px 5px 10px;
+  font-size: 15px;
+}
+
+.jigen{
+  width: 20%;
+}
+
